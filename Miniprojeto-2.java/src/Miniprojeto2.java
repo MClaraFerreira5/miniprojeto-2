@@ -35,7 +35,7 @@ public class Miniprojeto2 {
                     "e ficam completamente esgotados ");
                     nome.diminuirEnergia();
                     nome2.diminuirEnergia();
-            
+            System.err.println();
                 }
                 else if(mata_campo.equals("2")){
                     System.out.println("No campo eles conseguem ver com clareza o fim do labirinto e apesar de estaram muito" + 
