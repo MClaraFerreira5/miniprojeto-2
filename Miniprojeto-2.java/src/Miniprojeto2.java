@@ -20,13 +20,12 @@ public class Miniprojeto2 {
         "Escolha se os personagens irão comer a fruta. Digite sim ou nao." );
         
         String per = y.nextLine();
-        String pa = nome.nome + " e " + nome2.nome;
         
         if (per.equals("sim")){
                 nome.diminuirEnergia();
                 nome2.diminuirEnergia();
                 System.out.println("A fruta que eles comeram era venenosa e " + nome.nome + " e " + nome2.nome + "passaram mal");
-                System.out.println("Após eles serem envenenados " + pa + " ficam desesperados em busca de uma saida eles avistam 2" + 
+                System.out.println("Após eles serem envenenados " +  nome.nome + " e " + nome2.nome + " ficam desesperados em busca de uma saida eles avistam 2" + 
                 " caminhos um com mata fechada e outro com um campo aberto");
                 System.out.println("Digite 1 para seguir o da mata fechada e 2 para o do campo aberto");
                 String mata_campo = y.nextLine();
